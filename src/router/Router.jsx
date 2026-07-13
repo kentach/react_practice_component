@@ -6,7 +6,7 @@ import HeaderOnly from '../components/templates/HeaderOnly';
 
 const Router = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/react_practice_component">
       <Routes>
         <Route element={<DefaultLayout />}>
           <Route path="/" element={<Top />} />
