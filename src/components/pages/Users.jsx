@@ -5,7 +5,7 @@ const users = [...Array(10).keys()].map((val) => {
   return {
     id: val + 1,
     name: `山田太郎 ${val + 1}`,
-    image: "/dog.avif",
+    image: `${import.meta.env.BASE_URL}dog.avif`,
     email: "yamada.tarou@example.com",
     phone: "090-1234-5678",
     company: "Acme Corp",
